@@ -6,5 +6,6 @@ RUN apk --no-cache add git
 RUN pip install yamllint
 
 COPY entrypoint.sh /entrypoint.sh
+COPY config.yaml /config.yaml
 
 ENTRYPOINT ["/entrypoint.sh"]
