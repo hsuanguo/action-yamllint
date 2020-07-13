@@ -1,4 +1,5 @@
-FROM python:alpine
+#FROM python:alpine
+FROM python:3.8.3-alpine
 
 #RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b /usr/local/bin/ v0.9.14
 RUN apk --no-cache add git
